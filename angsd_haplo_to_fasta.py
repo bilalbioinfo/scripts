@@ -7,7 +7,7 @@ Author: Bilal Sharif <bilal.bioinfo@gmail.com>
 """
 
 if len(sys.argv) != 3:
-    print(f"Usage: {sys.argv[0]} <filename.haplo.gz> <filename.fasta>")
+    print(f"Usage: python3 {sys.argv[0]} <filename.haplo.gz> <filename.fasta>")
     sys.exit(1)
 
 haplo_file = sys.argv[1]
